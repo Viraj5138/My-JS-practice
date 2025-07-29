@@ -1,20 +1,20 @@
 // console.log("Hello Reeek!!");
 // var message;
 
-// message = ("FCUK OUY");
+// message = ("Hello");
 // console.log(message);
 
 // var me;
 // me= ("viraj");
-// me= ("fkljf");
+// me= ("patil");
 // console.log(me)
 
 // let V;
-// V = ("VIrja");
-// let V = ("kgjdfk");
+// V = ("Viraj");
+// let V = ("georgian");
 // console.log(V);
 
-// const v= ("fuck you");
+// const v= ("hello");
 // console.log(v);
 
 // let isProductInCart = false;
@@ -55,7 +55,7 @@
 // }
 
 
-const readlineSync = require("readline-sync")
+// const readlineSync = require("readline-sync")
 // const Sec  = require("readline-sync");
 // const Third = require("readline-sync");
 
@@ -78,7 +78,7 @@ const readlineSync = require("readline-sync")
 //     console.log("Found 2 or more strings of the same lenght");
 // }
 
-const TotalMarks = 59;
+// const TotalMarks = 59;
 
 // (TotalMarks <45) ? console.log("You failed") : console.log("You Passed")
 
@@ -99,5 +99,5 @@ const TotalMarks = 59;
 // const userName = firstName && nickName;
 // console.log(`Name - ${userName}`);
 
-let firstname;
-console.log(firstname ?? "hiddenGeek");
+// let firstname;
+// console.log(firstname ?? "hiddenGeek");
