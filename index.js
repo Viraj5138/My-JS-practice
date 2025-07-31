@@ -1,4 +1,4 @@
-// console.log("Hello Reeek!!");
+ // console.log("Hello Reeek!!");
 // var message;
 
 // message = ("Hello");
@@ -99,5 +99,7 @@
 // const userName = firstName && nickName;
 // console.log(`Name - ${userName}`);
 
-// let firstname;
-// console.log(firstname ?? "hiddenGeek");
+let firstname;
+
+console.log(firstname  ?? "shadyV")
+
