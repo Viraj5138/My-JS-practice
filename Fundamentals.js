@@ -99,7 +99,59 @@
 // const userName = firstName && nickName;
 // console.log(`Name - ${userName}`);
 
-let firstname;
+// let firstname;
 
-console.log(firstname  ?? "shadyV")
+// console.log(firstname  ?? "shadyV")
 
+// for loop 
+
+// for (let i = 0; i<5; i++){
+//     console.log("hello",i);
+// }
+
+// const userName = "Viraj Patil";
+// const Strlength  = userName.length;
+
+// for (let i = 0; i< Strlength; i++) {
+//     console.log(userName[i]);
+// }
+
+// for (let i = 1; i<=10 ; i++) {
+//     for (let j = 1; j<=12 ; j++) {
+//         console.log(`${i} x ${j} = ${i*j}`);
+//     }
+//     console.log("---------");
+// }
+
+// for (let i =5; i>=1; i--) {
+//     const symbol = "* ";
+//     console.log(symbol.repeat(i));
+   
+// }
+
+// const username = "Viraj Deelip Patil";
+// let count = 0;
+// for (let i=0; i<username.length; i++) {
+//     count++;
+// }
+// console.log(`Number of characters in the string are ${count}`);
+
+// for (let i = 1; i<101; i++) {
+//     if (i % 2 ===0 ) {
+//         console.log(i);
+//     }
+// }
+
+
+const inputString = "HEllo, MY name is Jefff...";
+
+const vowels = "aeiou";
+
+for (let i= 0; i<inputString.length; i++) {
+    if (vowels.includes(inputString[i])) {
+        console.log(`${inputString[i]} is a vowel`);
+    }
+    else {
+        console.log (`${inputString[i]} is consonanant`);
+    }
+}
