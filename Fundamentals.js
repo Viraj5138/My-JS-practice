@@ -143,15 +143,48 @@
 // }
 
 
-const inputString = "HEllo, MY name is Jefff...";
+// const inputString = "HEllo, MY name is Jefff...";
 
-const vowels = "aeiou";
+// const vowels = "aeiou";
 
-for (let i= 0; i<inputString.length; i++) {
-    if (vowels.includes(inputString[i])) {
-        console.log(`${inputString[i]} is a vowel`);
-    }
-    else {
-        console.log (`${inputString[i]} is consonanant`);
-    }
+// for (let i= 0; i<inputString.length; i++) {
+//     if (vowels.includes(inputString[i])) {
+//         console.log(`${inputString[i]} is a vowel`);
+//     }
+//     else {
+//         console.log (`${inputString[i]} is consonanant`);
+//     }
+// }
+
+// let i = 0;
+// while (i<10) {
+//     console.log(i);
+//     i++;
+// }
+
+// do {
+//     console.log(i);
+//     i++;
+// } while(i<10);
+
+// const redalinesync = require("readline-sync");
+
+
+// let userNO = redalinesync.question("Enter a Number");
+// while (userNO>=50) {
+    
+//     userNO = redalinesync.question("enter a number less than 50!! ")
+// }
+// console.log("YOur number is accepted")
+
+const username = "viraj";
+try {
+    someFunction ();
+    console.log("hey there");
+} catch (error) {
+    console.log(error.name);
+    console.log(error.message);
+    console.log(error.stack);
 }
+
+console.log(username);
