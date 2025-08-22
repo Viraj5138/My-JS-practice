@@ -59,22 +59,22 @@
 
 // console.log({studentIds})
 
-const stds = [1,2,3,4,5,6,4,4,];
-console.log(stds);
-const ustds = new Set(stds);
-console.log(ustds);
+// const stds = [1,2,3,4,5,6,4,4,];
+// console.log(stds);
+// const ustds = new Set(stds);
+// console.log(ustds);
 
-const nstds = [...ustds]
-console.log({nstds})
+// const nstds = [...ustds]
+// console.log({nstds})
 
 
-function Sum(start, end) {
-    let sum = 0;
-    for(let i =start ; i<=end ; i++) {
-        sum = sum + i ;
+// function Sum(start, end) {
+//     let sum = 0;
+//     for(let i =start ; i<=end ; i++) {
+//         sum = sum + i ;
 
-    }
-    return sum;
-}
+//     }
+//     return sum;
+// }
 
-console.log(Sum (1,5)) ;
+// console.log(Sum (1,5)) ;

@@ -40,3 +40,12 @@
 const findchar = (text, char) => text.indexOf(char) === -1 ? "char not found" : `char found at ${text.indexOf(char)}`;
 const result = findchar("wacth the eniterw videsoss", "z");
 console.log(result)
+
+const message = "I love dark mode";
+const vowels = "aeiou";
+
+for (let char of message) {
+    if(vowels.includes(char)) {
+        console.log(char);
+    }
+}
