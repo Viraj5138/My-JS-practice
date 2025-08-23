@@ -37,15 +37,23 @@
 // const str = "Oh lord, WE thank thee";
 // console.log(str.indexOf("l"));
 
-const findchar = (text, char) => text.indexOf(char) === -1 ? "char not found" : `char found at ${text.indexOf(char)}`;
-const result = findchar("wacth the eniterw videsoss", "z");
-console.log(result)
+// const findchar = (text, char) => text.indexOf(char) === -1 ? "char not found" : `char found at ${text.indexOf(char)}`;
+// const result = findchar("wacth the eniterw videsoss", "z");
+// console.log(result)
 
-const message = "I love dark mode";
-const vowels = "aeiou";
+// const message = "I love dark mode";
+// const vowels = "aeiou";
 
-for (let char of message) {
-    if(vowels.includes(char)) {
-        console.log(char);
+// for (let char of message) {
+//     if(vowels.includes(char)) {
+//         console.log(char);
+//     }
+// }
+
+function panagram(txt, pat) {
+    let count = 0;
+    let index = 0;
+    for(let i= 0; i <txt.length - pat.length; i++) {
+        if(txt)
     }
 }
