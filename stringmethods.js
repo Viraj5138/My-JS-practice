@@ -54,6 +54,11 @@ function panagram(txt, pat) {
     let count = 0;
     let index = 0;
     for(let i= 0; i <txt.length - pat.length; i++) {
-        if(txt)
+        index = i;
+        if(txt[i]=== pat[i]) {
+            count++;
+        } else{
+            continue;
+        }
     }
 }
