@@ -10,3 +10,12 @@ for (let name of studentsName) {
 for (let name in studentsName) {
     console.log(name);
 }
+
+
+let arr = [];
+for (let i  =0; i<7; i++) {
+    arr.push("syntax error! ");
+    
+}
+
+console.log(arr.join(""));
