@@ -110,7 +110,7 @@
 // console.log(arr3);
 // console.log(arr2);
 
-let arr4 = [1,2,3,4];
+// let arr4 = [1,2,3,4];
 
 let arr5 =[];
 
@@ -125,3 +125,6 @@ arr5.push(5);
 
 console.log("arr4: ", arr4 );
 console.log("arr5: ", arr5 );
+
+
+console.log(arr5);
