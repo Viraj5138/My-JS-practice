@@ -74,14 +74,43 @@
 
 // console.log({name,age});
 
-const info = {
-    city : "fkdfd",
-    age : 34
+// const info = {
+//     city : "fkdfd",
+//     age : 34
+// }
+
+// const ispresent = "age" in info;
+// console.log(ispresent);
+
+// for (let i in info) {
+//     console.log(info[i]);
+// }
+
+// const person1 = {
+//     Name : "djALok",
+//     age  : 43
+// }
+
+// const person2 = Object.assign({}, person1);
+
+// person2.state = "Tiruvanthapuram";
+// console.log(person2);
+// console.log(person1);
+
+const user = {
+    Name : "Prakash",
+    age : 99,
+    address : {
+        city : "Bhiwani",
+        state : "Haryana"
+    },
+    getmessage() {
+        console.log("Hello there!");
+    }
 }
 
-const ispresent = "age" in info;
-console.log(ispresent);
-
-for (let i in info) {
-    console.log(info[i]);
+if ((user.address?.city) === undefined) {
+    console.log("Address Not found!!") ;
 }
+
+console.log(user.getmessage());
